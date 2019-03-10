@@ -1,0 +1,91 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "Generates a random quote using a random number generator.",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "live_link": "https://amariusj.github.io/Random-Quote-Generator/",
+      "github_link": "https://github.com/amariusj/techdegree-project-1",
+      "main_image": "/static/images/project_one_main.png",
+      "image_urls": [
+        "/static/images/project_one_one.png",
+        "/static/images/project_one_two.png",
+        "/static/images/project_one_three.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Student Directory",
+      "description": "A single webpage that takes students listed on a site and uses JavaScript to hide all but 10 students. The webpage then generates a number of sections with a nav-bar at the bottom of the page based off the amount of students listed on the webpage.",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "live_link": "https://amariusj.github.io/Pagination-Filter/",
+      "github_link": "https://github.com/amariusj/techdegree-project-2",
+      "main_image" : "/static/images/project_two_main.png",
+      "image_urls": [
+        "/static/images/project_two_one.png",
+        "/static/images/project_two_two.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Registration Form",
+      "description": "This form allows users to submit their email, first and last name, a checkbox of all activities they'd like to select, and a payment options method. The form includes validation indicators requiring the user to input all required information before submitting the form. If any information is missing from the required fields or if the user inputs the wrong type of information into a field, a notifcation will pop up asking the user to please fill in the correct information.",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "live_link": "https://amariusj.github.io/Basic-Registration-Form/",
+      "github_link": "https://github.com/amariusj/techdegree-project-3",
+      "main_image" : "/static/images/project_three_main.png",
+      "image_urls": [
+        "/static/images/project_three_one.png",
+        "/static/images/project_three_two.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Tic Tac Toe Game",
+      "description": "This simple and fun to use Tic-Tac-Toe game displays user activation and deactivation, with a 'You Win!' card based on who wins the game.",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "live_link": "https://amariusj.github.io/Tic-Tac-Toe-Game/",
+      "github_link": "https://github.com/amariusj/techdegree-project-4",
+      "main_image" : "/static/images/project_four_main.png",
+      "image_urls": [
+        "/static/images/project_four_one.png",
+        "/static/images/project_four_two.png",
+        "/static/images/project_four_three.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Employee Directory Public API",
+      "description": "This employee directory website connects to a public API called randomuser.me/api. WHenever you click on an employee, a card opens displaying the emplyee's name, email, city, and phone number.",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "https://randomuser.me/api/"
+      ],
+      "live_link": "https://amariusj.github.io/Public-API-Request-Example/",
+      "github_link": "https://github.com/amariusj/techdegree-project-5",
+      "main_image" : "/static/images/project_five_main.png",
+      "image_urls": [
+        "/static/images/project_five_one.png"
+      ]
+    }
+  ]
+}

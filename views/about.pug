@@ -1,0 +1,45 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1 Amarius Jones
+
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            | Hi, I'm a Full Stack JavaScript Web Developer with experience in Express, Node.js, React, Pug, and SQL
+            | ORM Sequelize. I'm passionate about developing creative applications and working on my video game
+            | development. I plan on traveling to several countries in my life to experience different regions of work.
+            | Best hopes and desires are to be working with a fun and cooperative team of developers, designers, and
+            | product seekers.
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        ul
+          li Express
+          li Node.js
+          li CSS & SASS
+          li Pug & HTML
+          li React
+          li SQL ORM Sequelize
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li 1-470-437-1878
+          li amarius@amariusjones.com
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href='https://www.linkedin.com/in/amarius-jones-53b822143/') LinkedIn
+        a.button.expanded(href='https://github.com/amariusj') GitHub
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back

@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+  article.grid-container.portfolio-intro
+    div
+      h1 This world has brought gifs and gifts, both things developers can make!
+      p.lead.text-light
+        |  Hey friend! I'm Amarius Jones and I would like to make things my mind can't help but (node.js)Express! Feel free to view my entire site as I showcase my skills in JavaScript, HTML, and CSS. I hope to connect with other like-minded individuals who seek growth in software innovation.
+  article.grid-container.portfolio-index
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+    each project in projects
+      .cell
+        a(href=`projects/${project.id}`)
+          img.thumbnail(src=`${project.main_image}`)
+          h5= `${project.project_name}`
