@@ -31,11 +31,6 @@ router.get('/projects/:id', (req, res, next) => {
   res.render('project', { project : project });
 });
 
-//Renders the 404 error page
-router.get('/error', (req, res, next) => {
-  res.render('error');
-});
-
 //Adds about page
 router.get('/about', (req, res, next) => {
   res.render('about');
