@@ -15,4 +15,4 @@ const routes = require('./routes');
 app.use(routes);
 
 //Calls port to listen from
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
